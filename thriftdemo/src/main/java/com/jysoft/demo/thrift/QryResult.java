@@ -287,7 +287,7 @@ public class QryResult implements org.apache.thrift.TBase<QryResult, QryResult._
     if (isSetMsg())
       hashCode = hashCode * 8191 + msg.hashCode();
 
-    return hashCode;
+    return hashCode; 
   }
 
   @Override
